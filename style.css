@@ -171,3 +171,78 @@ footer {
     font-size: 30px;
   }
 }
+
+/* RESCIGK COLLECTIONS */
+
+.collections {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 6% 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+.collection-card {
+  min-height: 220px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 1px solid rgba(198, 167, 86, 0.5);
+}
+
+.collection-card h2 {
+  font-size: 23px;
+  margin-bottom: 12px;
+}
+
+.collection-card p {
+  font-size: 13px;
+}
+
+.black-gold {
+  background: linear-gradient(135deg, #252525, #000000);
+  color: #C6A756;
+}
+
+.golden-black {
+  background: linear-gradient(135deg, #C6A756, #161616);
+  color: #000000;
+}
+
+.white-prestige {
+  background: linear-gradient(135deg, #FFFFFF, #A5A5A5);
+  color: #000000;
+}
+
+.royal-blue {
+  background: linear-gradient(135deg, #1745A5, #050D30);
+  color: #FFFFFF;
+}
+
+.navy {
+  background: linear-gradient(135deg, #172A45, #050A12);
+  color: #FFFFFF;
+}
+
+.red {
+  background: linear-gradient(135deg, #9B111E, #280000);
+  color: #FFFFFF;
+}
+
+.emerald {
+  background: linear-gradient(135deg, #087A50, #002B1D);
+  color: #FFFFFF;
+}
+
+.special {
+  background: linear-gradient(135deg, #383838, #090909);
+  color: #C6A756;
+}
+
+@media (max-width: 700px) {
+  .collections {
+    grid-template-columns: 1fr;
+  }
+}
