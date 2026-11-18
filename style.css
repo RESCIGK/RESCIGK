@@ -268,3 +268,45 @@ footer {
   line-height: 2;
   margin-bottom: 25px;
 }
+
+/* RESCIGK CONTACT */
+
+.contact-content {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 25px 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.contact-item {
+  padding: 35px;
+  border: 1px solid rgba(198, 167, 86, 0.4);
+  background: #0A0A0A;
+  text-align: center;
+}
+
+.contact-item h2 {
+  color: #C6A756;
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.contact-item p,
+.contact-item a {
+  color: #A5A5A5;
+  font-size: 14px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+.contact-item a:hover {
+  color: #C6A756;
+}
+
+@media (max-width: 600px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+}
