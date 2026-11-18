@@ -246,3 +246,25 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* RESCIGK ABOUT */
+
+.about-content {
+  max-width: 850px;
+  margin: auto;
+  padding: 50px 25px 100px;
+  text-align: center;
+}
+
+.about-content h2 {
+  color: #C6A756;
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+.about-content p {
+  color: #A5A5A5;
+  font-size: 15px;
+  line-height: 2;
+  margin-bottom: 25px;
+}
